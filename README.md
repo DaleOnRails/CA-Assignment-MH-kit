@@ -6,6 +6,19 @@ To be updated...
 # Alternate Ideas Considered
 To be updated...
 
+# User Stories
+As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
+
+As a user i want an application that appears personalised to me.
+
+As a user i want to be able to log my moods daily.
+
+As a user i want to be able to record and reflect on my daily moods in an easy to understand format.
+
+As a user i want to use this mood journal so that my GP can easily identify patterns in my life and therefore diagnose and prescribe medication more accurately.
+
+To be updated...
+
 # Functionality and Features
 To be updated...
 
