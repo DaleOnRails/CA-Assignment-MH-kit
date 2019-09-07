@@ -53,6 +53,49 @@ Upon entering their name the initial welcome screen will be cleared and the main
 ![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
 The idea of the **FAQ Table** is to let the user know they are not alone in the fight.
 
+# Initial prototype features & ideas
+Before the final product listed above, i had implented a number of features before purging them in the pursuit of satisfying my user story / client requirements. Some features that were initially incorporated included:
+
+- **Text input menu navigation.** Initially i had hardcoded the menu (after struggling for 1 and a half days pulling my hair trying to figure out how!). The user would simply choose menu options via inputting the corresponding number listed next to it. Below is a (apologetically long) code snippet of the hardcoded model including my overboard dev notes/comments. 
+
+```ruby
+
+class Menu
+  attr_reader :quit 
+
+  def initialize(*menu_opt) #when ruby see's a splat it turns all the values into an array for me and eliminates the need to  include all the menu args. I used this as it seemed like a DRYer approach
+    @menu_opt = menu_opt #array of strings (strings = menu options)
+    @quit = @menu_opt.length #setting the 'quit' option to menu.length will allow me to easily add features to the menu without having to change the value of quit as long as 'quit' is the last item / same value as the menu item length.
+  end
+
+
+  def get_user_choice #needs to: 1.print out menu, 2.ask user for choice_value and 3.return value they chose.
+
+    @menu_opt.each_with_index do |menu_item, index|         # print menu
+      puts "#{index + 1}. #{menu_item}" #numbers menu-options/items.
+    end
+    
+    #prompt user for choice
+    print "Enter your choice: "   
+    user_choice = gets.to_i
+    puts #need this to insert line space between 'choice selection' & 'choice result/return' for aesthetic purposes.
+
+
+    #returns/outputs user_choice
+    return user_choice
+  end
+end
+
+
+menu = Menu.new( #rather then incorparating menu items/parameters in standard single line format i chose to sacrifice some bytes and use this option so that for someone reading the code, it can be easily distinguished as a menu.
+  "Launch Activity Guide.",
+  "View Progress.",
+  "Mental Health FAQ'S.",
+  "Quit MH-Kit." #after user inputs a menu-option it will display/return the choice they made via the puts strings i have included below in the case statement.
+)
+
+```
+
 # Code Structure / Modules
 To be updated...
 
