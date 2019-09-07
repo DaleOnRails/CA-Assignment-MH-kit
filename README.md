@@ -72,7 +72,7 @@ However a special mention must go to https://github.com/piotrmurach as his exten
 > bundle install 
 
 5.In the terminal command line, navigate to the folder containing the repositories project file by inputting the command
-> cd <name-of-folder-containing-extracted-repository-project-file>
+> cd (name-of-folder-containing-extracted-repository-project-file)
 
 6.Input the below command in the terminal command line to launch the "MH-Kit" application program.
 > ruby ruby mh-kit-source-code.rb
