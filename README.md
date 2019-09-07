@@ -36,7 +36,7 @@ Upon entering their name the initial welcome screen will be cleared and the main
 **The following are screenshots of each feature:**
 
 ![MH-Kit Activity Guide](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/activity-Guide.png?raw=true)
-
+**"Activity Guide"**
 ![MH-Kit Mood Journal](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal.png?raw=true)
 - **Mood Journal.** Input of a daily mood rating / assesment is done via directional keys on a slider style feature.
 
@@ -51,15 +51,37 @@ Upon entering their name the initial welcome screen will be cleared and the main
 - **Weekly Mood Chart.** Incorporates a simple format with 1-10 mood ratings and days of the week.
 
 ![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
-The idea of the **FAQ Table** is to let the user know they are not alone in the fight.
+**"Mental Health FAQ's"** The idea of the **FAQ Table** is to let the user know they are not alone in the fight and to raise awareness on how prominent the issue is.
 
 # Required Ruby Gems / Specs / Dependencies
 The gems / bundle required to run the application has been included in the above repository. I have chosen not to list them here in the 'readme.md' file due to readibility purposes. 
 
-A special mention must go to https://github.com/piotrmurach however as his extensive work in the ruby community has made life far easier for beginning students like myself. His work has inspired me to one day code my own gem and give back to the community but currently i am a long way off from having the skillset to do so. 
+However a special mention must go to https://github.com/piotrmurach however as his extensive work in the ruby community has made life far easier for beginning students like myself. I wish i looked into the features that ruby gems offer before 'wasting' two days trying to hardcode every function myself. His work has inspired me to one day code my own gem and give back to the community but currently i am a long way off from having the skillset to do so. 
 
 # User Instructions
 1. Follow these instructions to download and install [ruby]https://www.ruby-lang.org/en/documentation/installation/ on your computer.
+
+2. Download and extract the zip files of this repository.
+
+3. Open your terminal and on the command line change your directory path to the folder containing this project. Install the bundler gem (if you haven't already). 
+> install bundler
+
+4.Ask bundle to install the gems that this applications program uses via...
+> bundle install 
+
+5.In the terminal command line, navigate to the (...) folder by inputting the command
+> cd (...)
+
+6.Input the below command in the terminal command line to launch the "MH-Kit" application program.
+> ruby main.rb
+
+7. If you get an error message (usually in red) on your terminal, asking you to update your bundler, input the below in your terminal command line. (this may indicate that you do not have the correct version of bundler)
+> gem update --system
+
+8 Run program using step 6 again.
+
+AUTHOR NOTE: DOUBLE CHECK THIS PROCCESS BEFORE RELEASE!!!!
+
 # Design and Planning
 To be updated...
 
@@ -119,6 +141,7 @@ menu = Menu.new( #rather then incorparating menu items/parameters in standard si
 )
 
 ```
+This version of the menu worked fine but then my second and most painful problem arose (I'm a beginner remember ;) ). Once a user 
 
 # Application Build Status / Future Endeavours
 The application is %99 functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
