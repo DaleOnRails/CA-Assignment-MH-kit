@@ -20,7 +20,7 @@ Features such as a Mood Journal & Mood Chart were included so the user can help 
 # Functionality and Features
 **'MH-Kit'** was designed with the simplest application usabilty in mind. After the user has entered their name via text input, the user can navigate purely with directional keyboard inputs. On starting the application the user will be welcomed with a brief description of MH-Kit and be prompted for their name.
 
-![MH-Kit Welcome Screen](file:///fudomyo/Desktop/welcome-screen.jpeg)
+![MH-Kit Welcome Screen](https://www.facebook.com/photo.php?fbid=2466384813438543&set=a.241381972605516&type=3&eid=ARDYOMVBg5yV0xgwuSJY8_pU7ow0L912PQ5GZ16pUhB4ZjaSC0vrfuAA8RU6PNqalMuHSVaN-g04OUdl)
 
 # Code Structure / Modules
 To be updated...
