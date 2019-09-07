@@ -53,7 +53,31 @@ Upon entering their name the initial welcome screen will be cleared and the main
 ![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
 The idea of the **FAQ Table** is to let the user know they are not alone in the fight.
 
-# Initial prototype features & ideas
+# Required Ruby Gems / Specs / Dependencies
+The gems / bundle required to run the application has been included in the above repository. I have chosen not to list them here in the 'readme.md' file due to readibility purposes. 
+
+A special mention must go to https://github.com/piotrmurach however as his extensive work in the ruby community has made life far easier for beginning students like myself. His work has inspired me to one day code my own gem and give back to the community but currently i am a long way off from having the skillset to do so. 
+
+# User Instructions
+1. Follow these instructions to download and install [ruby]https://www.ruby-lang.org/en/documentation/installation/ on your computer.
+# Design and Planning
+To be updated...
+
+# Record of Planning Progress
+To be updated...
+
+# Project Timeline
+To be updated...
+
+# Testing
+To be updated...
+(Insert description of unit testing proccesses)
+(Insert Screenshots of unit testing proccesses)
+
+# Code Structure / Modules
+To be updated...
+
+# Initial Prototype Features, Ideas & Challenges
 Before the final product listed above, i had implented a number of features before purging them in the pursuit of satisfying my user story / client requirements. Some features that were initially incorporated included:
 
 - **Text input menu navigation.** Initially i had hardcoded the menu (after struggling for 1 and a half days pulling my hair trying to figure out how!). The user would simply choose menu options via inputting the corresponding number listed next to it. Below is a (apologetically long) code snippet of the hardcoded model including my overboard dev notes/comments. 
@@ -96,75 +120,23 @@ menu = Menu.new( #rather then incorparating menu items/parameters in standard si
 
 ```
 
-# Code Structure / Modules
-To be updated...
+# Application Build Status / Future Endeavours
+The application is %99 functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
 
-# Required Ruby Gems / Specs / Dependencies
-## GEM
-  remote: https://rubygems.org/
-  specs:
-    ascii-charts (0.9.3)
-    colorize (0.8.1)
-    rainbow (3.0.0)
-    strings-ansi (0.1.0)
-    terminal-table (1.8.0)
-    unicode-display_width (~> 1.1, >= 1.1.1)
-    tty (0.1.0)
-    tty-cursor (0.7.0)
-    tty-progressbar (0.17.0)
-    strings-ansi (~> 0.1.0)
-    tty-cursor (~> 0.7)
-    tty-screen (~> 0.7)
-    unicode-display_width (~> 1.6)
-    tty-screen (0.7.0)
-    unicode-display_width (1.6.0)
+This is so that i am able to collect real statistics from the 'mood journal' feature rather then the manually inputted 'dummy data' i have used to create the 'mood chart' which i have done purely for presentational purposes. 
 
-## PLATFORMS
-  ruby
+The other note is the fact that there is one bug in the current code of the application. When the menu is first displayed and a menu option is 'entered', it doesn't run the feature. After one 'enter' input however the entire app runs smoothly and all features / functions run on the first go. This does not effect the functionality of any other code in the program and more of an annoyance / UX flaw, rather then an error.
 
-## DEPENDENCIES
-  ascii-charts (~> 0.9.2)
-  colorize (~> 0.8.1)
-  rainbow (~> 3.0)
-  terminal-table (~> 1.8)
-  tty
-  tty-progressbar
-
-## BUNDLED WITH
-   2.0.2
-   
-To be updated...
-
-# Application Build Status
-To be updated...
-
-# User Instructions
-To be updated...
-
-# Design and Planning
-To be updated...
-
-# Libary of Planning Progress
-To be updated...
-
-# Project Timeline
-To be updated...
-
-# Testing
-To be updated...
-(Insert description of unit testing proccesses)
-(Insert Screenshots of unit testing proccesses)
-
+I am intending to keep working on this application purely to consolidate my learning and will incorporate more features soon. Some ideas include a 'friends & family contact list' and a feature which includes diaphragmatic breathing techniques to lower anxiety. This may be done via a function which displays some sort of graphical timer / countdown, though more research will have to be done. 
 
 # Accesibility 
 Currently Planning to spend time researching https://www.w3.org/WAI/standards-guidelines/wcag/
 To be updated...
 
-# Copyright, ethical and social issues:
-From a copyright perspective i have put in research in case the name of this application "MH-Kit" infringed any copyright laws of other health applications currently released. I have not seen anything with a name close to "MH-Kit" and therefore have confidence that my application is complient.
+# Copyright, Ethical & Social Issues:
+The features and information in this document and application is not intended as a substitute for professional medical advice, diagnosis or treatment. This application is not to be used for commercial purposes or personal gain.
 
-Ethical issues to be updated...
-Social issues to be updated...
+From a copyright perspective i have put in research in case the name of this application "MH-Kit" infringed any copyright laws of other health applications currently released. I have not seen anything with a name close to "MH-Kit" and therefore have confidence that my application is complient.
 
 # User Stories
 - As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
