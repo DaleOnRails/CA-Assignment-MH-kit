@@ -38,17 +38,17 @@ Upon entering their name the initial welcome screen will be cleared and the main
 ![MH-Kit Activity Guide](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/activity-Guide.png?raw=true)
 **Activity Guide**
 ![MH-Kit Mood Journal](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal.png?raw=true)
-- **Mood Journal.** Input of a daily mood rating / assesment is done via directional keys on a slider style feature.
+**Mood Journal.** Input of a daily mood rating / assesment is done via directional keys on a slider style feature.
 
 ![MH-Kit less3 MJ Qoutes](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal-less-three.png?raw=true)
-- If the user enters less then three a list of 'inspiring' qoutes are displayed.
+If the user enters less then three a list of 'inspiring' qoutes are displayed.
 
 ![Mood-Journal-Over-Three](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal-over-three.png?raw=true)
 
-- Input above three. Each time a feature is interacted with, the menu is re-displayed, easing navigation.
+Input above three. Each time a feature is interacted with, the menu is re-displayed, easing navigation.
 
 ![weekly-mood-chart](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/weekly-mood-chart.png?raw=true)
-- **Weekly Mood Chart.** Incorporates a simple format with 1-10 mood ratings and days of the week.
+**Weekly Mood Chart.** Incorporates a simple format with 1-10 mood ratings and days of the week.
 
 ![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
 **Mental Health FAQ Table** The idea of the **"FAQ Table"** is to let the user know they are not alone in the fight and to raise awareness on how prominent the issue is.
