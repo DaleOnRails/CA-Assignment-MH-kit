@@ -258,3 +258,13 @@ To be updated...
 The features and information in this document and application is not intended as a substitute for professional medical advice, diagnosis or treatment. This application is not to be used for commercial purposes or personal gain.
 
 From a copyright perspective i have put in research in case the name of this application "MH-Kit" infringed any copyright laws of other health applications currently released. I have not seen anything with a name close to "MH-Kit" and therefore have confidence that my application is complient.
+
+Below are a list of resources i used to get the facts and statistics on mental heath. These organisations need to be paid more attention to and should receive better support from the government if they are at all. I personally have found times when they have been the only resource to turn to and can't praise them enough for the work they are doing and continue to do silently in the background. 
+
+- [headspace.org.au](https://headspace.org.au/?gclid=Cj0KCQjwqs3rBRCdARIsADe1pfSWBgVcH5adQV10bSWjdI9_btexC684xrVeQh_7Hhb7ZCAqul--nP8aAqneEALw_wcB)
+
+- [Black Dog Institute ](https://www.blackdoginstitute.org.au/?gclid=Cj0KCQjwqs3rBRCdARIsADe1pfQmhWxASMCG9yFIPFyJviUTxJKr_gxM2mapwYx1dlJYWW3casaKdTUaAlCHEALw_wcB)
+
+- [Lifeline.com](https://www.lifeline.org.au/)
+
+If you experience symptoms of mental illness don't be embarrassed to speak up, it needs to stop being the elephant in the room and by doing so you will encourage others to open up aswell.
