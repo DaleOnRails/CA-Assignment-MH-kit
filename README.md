@@ -71,23 +71,28 @@ However a special mention must go to https://github.com/piotrmurach as his exten
 4.Ask bundle to install the gems that this applications program uses via...
 > bundle install 
 
-5.In the terminal command line, navigate to the (...) folder by inputting the command
-> cd (...)
+5.In the terminal command line, navigate to the folder containing the repositories project file by inputting the command
+> cd <name-of-folder-containing-extracted-repository-project-file>
 
 6.Input the below command in the terminal command line to launch the "MH-Kit" application program.
-> ruby main.rb
+> ruby ruby mh-kit-source-code.rb
 
 7.If you get an error message (usually in red) on your terminal, asking you to update your bundler, input the below in your terminal command line. (this may indicate that you do not have the correct version of bundler)
 > gem update --system
 
 8.Run program using step 6 again.
 
-AUTHOR NOTE: DOUBLE CHECK AND UPDATE THIS PROCCESS BEFORE RELEASE!!!!
-
 # Design and Planning
-Part of the assessment criteria was to implement our understanding of algorithmic thinking applied to programming. To do this i have included a control flow digram as part of the software development plan. However due to time restraints i have opted to include my initial draft diagram. It may not be visually appealing but the logic is there. This will soon be updated via using a professional flowchart application by the name of *coggle.*
+Part of the assessment criteria was to implement our understanding of algorithmic thinking applied to programming. To do this i have included a control flow digram as part of the full software development plan(found in the above repository). However due to time restraints i have opted to include my initial draft diagram. It may not be visually appealing but the logic is there. This will soon be updated via using a professional flowchart application by the name of *coggle.*
 
-# User Stories
+![control-flow-diagram](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/Design%20Process/algorithm-two.jpg?raw=true)
+
+## Project Timeline
+The project workload was dissected using an industry project management platform called Trello. The goals i desired to meet for this project stemmed from the assignment criteria and a more detailed time-indicated plan was included in the official software development contained in the above repository.
+
+![trello-plan](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/assignment-one-trello-board.png?raw=true)
+
+## User Stories
 - As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
 
 - As a user i want an application that appears personalised to me.
@@ -98,21 +103,10 @@ Part of the assessment criteria was to implement our understanding of algorithmi
 
 - As a user i want to provide better quality feedback to my GP without having to rely on active recall.
 
-# Record of Planning Progress
-To be updated...
+# Code Structure
+I have written the source code with the practice of 'self-commenting' code in mind. Despite this i have a habit of applying heavy code comments by default. It helps me consolidate the flow of the program and has been especially helpful when running on almost no sleep. 
 
-# Project Timeline
-To be updated...
-
-# Testing
-To be updated...
-(Insert description of unit testing proccesses)
-(Insert Screenshots of unit testing proccesses)
-
-# Code Structure / Modules
-To be updated...
-
-# Initial Prototype Features, Ideas & Challenges
+# Initial Prototype Features, Ideas & Challenges 
 *"This section isn't crucial to my assignment and may not be typically included in a readme.md file and belong to something more like a blog, but i thought i would explain the valuable lessons i have learnt. This will be painful for an experienced dev to read but have included it in the hope of helping a future beginning dev like myself so they don't make the same mistakes i made."*
 
 Before the final product listed above, i had implented a number of features before purging them in the pursuit of satisfying my user story / client requirements. Some features that were initially incorporated included:
@@ -224,6 +218,14 @@ loop do
 
 So i 'chucked' the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin and if my past days in MMA took more of a toll then i thought.
 
+# Application Build Status / Future Endeavours
+The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
+
+This is so that i am able to collect real statistics from the 'mood journal' feature rather then the manually inputted 'dummy data' i have used to create the 'mood chart' which i have done purely for presentational purposes. 
+
+The other note is the fact that there is one bug in the current code of the application. When the menu is first displayed and a menu option is 'entered', it doesn't run the feature. After one 'enter' input however the entire app runs smoothly and all features / functions run on the first go. This does not effect the functionality of any other code in the program and more of an annoyance / UX flaw, rather then an error.
+
+I am intending to keep working on this application purely to consolidate my learning and will incorporate more features soon. Some ideas include a 'friends & family contact list' and a feature which includes diaphragmatic breathing techniques to lower anxiety. This may be done via a function which displays some sort of graphical timer / countdown, though more research will have to be done. 
 ### What Have I Learnt?
 **1st lesson:** I ran into more challenges after this but they were solved much quicker, and i think it was due to the realisation that for me coding isn't something that i can attack hard and fast. I learnt that i need to slow down in order to think more logically and trust my abilty to recall what i have been taught in class. Rather then wasting time on google to end up not finding anything helpful anyways. 
 
@@ -237,18 +239,11 @@ This assignment was a lesson in dealing with fear of failure. It's not that i ha
 
 In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. 
 
-Without a doubt i know i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code.
+Without a doubt i know i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. I'm sure i could have met the requirements of these practices but as with alot of my cohort peers, time was the worst enemy. 
+
+That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code and im sure there is a way i can improve my time management skills and still get some kind sleep in the process. I gave this assignment all the effort i could possibly give in the timeframe that was set and to me that's all that matters.
 
 I'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
-
-# Application Build Status / Future Endeavours
-The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
-
-This is so that i am able to collect real statistics from the 'mood journal' feature rather then the manually inputted 'dummy data' i have used to create the 'mood chart' which i have done purely for presentational purposes. 
-
-The other note is the fact that there is one bug in the current code of the application. When the menu is first displayed and a menu option is 'entered', it doesn't run the feature. After one 'enter' input however the entire app runs smoothly and all features / functions run on the first go. This does not effect the functionality of any other code in the program and more of an annoyance / UX flaw, rather then an error.
-
-I am intending to keep working on this application purely to consolidate my learning and will incorporate more features soon. Some ideas include a 'friends & family contact list' and a feature which includes diaphragmatic breathing techniques to lower anxiety. This may be done via a function which displays some sort of graphical timer / countdown, though more research will have to be done. 
 
 # Accesibility 
 Currently Planning to spend time researching https://www.w3.org/WAI/standards-guidelines/wcag/
