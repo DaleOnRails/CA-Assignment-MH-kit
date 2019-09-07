@@ -226,12 +226,15 @@ loop do
 
 So i 'chucked' the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin and if my past days in MMA took more of a toll then i thought.
 
-## What Have I Learnt?
-Apart from having 
-I ran into more challenges after this but they were solved much quicker, and i think it was due to the realisation that for me coding isn't something that i can attack hard and fast. I learnt that i need to slow down in order to think more logically and trust my abilty to recall what i have been taught in class. Rather then wasting time on google to end up not finding anything helpful anyways. 
+### What Have I Learnt?
+**1st lesson:** I ran into more challenges after this but they were solved much quicker, and i think it was due to the realisation that for me coding isn't something that i can attack hard and fast. I learnt that i need to slow down in order to think more logically and trust my abilty to recall what i have been taught in class. Rather then wasting time on google to end up not finding anything helpful anyways. 
 
-I've also learnt to try and not let stress & deadlines get to me so much, it seems to hijack my amygdala and throw logical thinking out the window. I was 'under the pump' no doubt, but if i actually worked slower and took time to think about what im trying to solve before touching the keyboard i would have gotten twice as much done. I hope this helps someone in the future.
-## Summary
+**2nd lesson:** I've also learnt to try and not let stress & deadlines get to me so much, it seems to hijack my amygdala and throw logical thinking out the window. I was 'under the pump' no doubt, but if i actually worked slower and took time to think about what im trying to solve before touching the keyboard i would have gotten twice as much done. I hope this helps someone in the future.
+
+Also a noteworthy lesson might be to not spend two hours attempting to add a screencasted GIF of my application to a readme.md file on Github and instead focus on the essential criteria that my assignment lists. *another face slap*
+
+![jazzing-up-readme](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/giphy.gif?raw=true)
+### Summary
 This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive. 
 
 In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. 
