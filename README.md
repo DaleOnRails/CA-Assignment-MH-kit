@@ -237,7 +237,7 @@ This assignment was a lesson in dealing with fear of failure. It's not that i ha
 
 In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. 
 
-I still feel like i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code.
+Without a doubt i know i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code.
 
 I'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
 
