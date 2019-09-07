@@ -60,7 +60,7 @@ The gems / bundle required to run the application has been included in the above
 
 However a special mention must go to https://github.com/piotrmurach as his extensive work in the ruby community has made life far easier for beginning students like myself. I wish i looked into the features that ruby gems offer before 'wasting' valuable time trying to hardcode every function myself. His work has inspired me to one day code my own gem and give back to the community but currently i am a long way off from having the skillset to do so. 
 
-# User Instructions
+# User Instructions ('Help File' as per the assessment Rubic)
 1.Follow these instructions to download and install [ruby](https://www.ruby-lang.org/en/documentation/installation/) on your computer.
 
 2.Download and extract the zip files of this repository.
