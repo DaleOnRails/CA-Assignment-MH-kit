@@ -18,9 +18,38 @@ It is sometimes hard for someone with a mental disorder to recall their moods ac
 Features such as a Mood Journal & Mood Chart were included so the user can help their GP give a more accurate diagnosis. Charting their mood allows them and the GP to see patterns in their life and a way to monitor their own progress.
 
 # Functionality and Features
-**'MH-Kit'** was designed with the simplest application usabilty in mind. After the user has entered their name via text input, the user can navigate purely with directional keyboard inputs. On starting the application the user will be welcomed with a brief description of MH-Kit and be prompted for their name.
+**'MH-Kit'** was designed with the simplest application usabilty in mind. After the user has entered their name via text input, the user can navigate purely with directional keyboard inputs. From the welcome screen the user will be informed with a brief description of MH-Kit and be prompted for their name.
 
 ![MH-Kit Welcome Screen](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/welcome-screen.png?raw=true)
+
+Upon entering their name the initial welcome screen will be cleared and the main menu will be displayed showing three options / features.
+
+1. Activity Guide 
+2. Mood Journal 
+3. Weekly Mood Chart
+4. Mental Health FAQ's
+5. Exit
+
+![MH-Kit-Start-Menu](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/start-menu.png?raw=true)
+
+The following are screenshots of each feature:
+
+![MH-Kit Activity Guide](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/activity-Guide.png?raw=true)
+
+![MH-Kit Mood Journal](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal.png?raw=true)
+Input of a daily mood rating / assesment is done via directional keys on a slider style feature.
+
+![MH-Kit less3 MJ Qoutes](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal-less-three.png?raw=true)
+If the user enters less then three a list of 'inspiring' qoutes are displayed.
+
+![Mood-Journal-Over-Three](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal-over-three.png?raw=true)
+Input above three. Each time a feature is interacted with, the menu is re-displayed, easing navigation.
+
+![weekly-mood-chart](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/weekly-mood-chart.png?raw=true)
+Weekly Mood Chart Feature. Incorporates a simple format with 1-10 mood ratings and days of the week.
+
+![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
+The idea of the FAQ Table is to let the user know they are not alone in the fight.
 
 # Code Structure / Modules
 To be updated...
