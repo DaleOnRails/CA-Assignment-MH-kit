@@ -47,3 +47,32 @@ loop do
     t.style = {:all_separators => true, :border_x => "=".colorize(:light_green)}
 end 
 end
+    
+    def mood_journal #collects 'mood stats' which will be used in the other menu option 'mood chart'.
+    puts
+    puts Rainbow("> Use the Mood Journal to give a global assessment of your mood on a day-to-day basis.").blue.italic
+    puts
+    puts "With consistent use, you'll be able to make the most out of your visits to your GP."
+    puts
+    puts "You will also be able to monitor your progress and recall your mood statistics with the MH-Kits Mood Chart (found in the menu)"
+    puts
+    mood_prompt = TTY::Prompt.new
+    mood_value = mood_prompt.slider("How are you feeling today? (1 being the worst and 10 being your best) :", min: 1, max: 10,  step: 1)
+
+    puts "You chose #{mood_value}, your recording has been logged." #feedback to user
+    if mood_value < 5 #DEVNOTE: mood_value = user input
+        puts Rainbow("Sound's like it's been a rough day. I have collected some inspiring qoutes that might make you feel better. You got this!").green.italic
+        puts 
+        puts Rainbow("The grass is greener where you water it. – John Lennon").blue.italic
+        puts
+        puts Rainbow("The sun is a daily reminder that we too can rise again from the darkness, that we too can shine our own light- Rumi").blue.italic
+        puts
+        puts Rainbow("Although the world is full of suffering, it is also full of the overcoming of it.– Helen Keller").blue.italic
+        puts
+        puts Rainbow("Is our past a mistake? No. The only mistake we can make is mistaking that for the truth– The Fairy Godmother").blue.italic #the fairy god mother?
+        puts
+        puts Rainbow("If love is universal, no one can be left out. – Deepak Chopra").blue.italic
+    else 
+        puts Rainbow("I'm so glad your feeling better, keep up the great work!").blue.italic
+end
+end
