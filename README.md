@@ -1,11 +1,16 @@
 # MH-Kit Ruby CLI Application
 
 # Background Description / Motivation
-The reason programming caught my eye to begin with was because of its capabilities to create a positive impact in this world and help people. 
+*The reason programming caught my eye to begin with was because of its capabilities to create a positive impact in this world and help people. 
 
-While this app won't really help anyone in the real world,  it’s a step towards that burning desire and a spark for the ideas engine.
+*While this app won't really help anyone in the real world,  it’s a step towards that burning desire and a spark for the ideas engine.
 
-With 'RUOK' day around the corner i have themed my application around mental illness.
+*With 'RUOK' day around the corner i have themed my application around mental illness.
+
+# Application Description
+**'MH-Kit'** 
+
+
 
 # User Stories
 As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
