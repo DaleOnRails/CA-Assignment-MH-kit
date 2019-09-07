@@ -233,13 +233,13 @@ Also a noteworthy lesson might be to not spend two hours attempting to add a scr
 
 ![jazzing-up-readme](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/giphy.gif?raw=true)
 ### Summary
-This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive but i am happy to of achieved everything i aimed for.
+This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive but i am happy to of achieved everything i aimed for. Presentation day really showcased how positve the culture is in our cohort and i feel like were all a little more closer and supportive for it.
 
 In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. 
 
 I still feel like i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code.
 
-In saying that i'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
+I'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
 
 # Application Build Status / Future Endeavours
 The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
