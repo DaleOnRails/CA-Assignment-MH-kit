@@ -111,7 +111,7 @@ To be updated...
 To be updated...
 
 # Initial Prototype Features, Ideas & Challenges
-*This section isn't crucial to my assignment and may not be typically included in a readme.md file and belong to something more like a blog, but i thought i would explain the valuable lessons i have learnt. This will be painful for an experienced dev to read but have included it in the hope of helping a future beginning dev like myself so they don't make the same mistakes i did.*
+*T"his section isn't crucial to my assignment and may not be typically included in a readme.md file and belong to something more like a blog, but i thought i would explain the valuable lessons i have learnt. This will be painful for an experienced dev to read but have included it in the hope of helping a future beginning dev like myself so they don't make the same mistakes i did."*
 
 Before the final product listed above, i had implented a number of features before purging them in the pursuit of satisfying my user story / client requirements. Some features that were initially incorporated included:
 
