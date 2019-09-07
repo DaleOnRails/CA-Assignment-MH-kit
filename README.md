@@ -267,4 +267,4 @@ Below are a list of resources i used to get the facts and statistics on mental h
 
 - [Lifeline.com](https://www.lifeline.org.au/)
 
-If you experience symptoms of mental illness don't be embarrassed to speak up, it needs to stop being the elephant in the room and by doing so you will encourage others to open up aswell.
+*If you experience symptoms of mental illness don't be embarrassed to speak up, it needs to stop being the elephant in the room and by doing so you will encourage others to open up aswell.*
