@@ -117,3 +117,13 @@ table = Terminal::Table.new do |t|
   t.style = {:all_separators => true, :border_x => "=".colorize(:blue)} #DEVNOTE: table styling.  
 end
 end
+
+#-----------------------------------------Mood-Chart-Statistics-(menu-method)------------------------------
+
+def mood_chart                            #---IMPORTANT DEVNOTE BELOW!!!:---
+    sleep(1) #i could assign the (mood_journal) variable to this class and therefore display real statistics however due \n
+    #...to lack of a database i have chosen to use fake data so that i am able to display the capabilites of my application. \n
+    #...If im correct i could store variable data without a database via a session logging gem, but due to presentation purposes i have chosen to do this.
+    puts
+    puts AsciiCharts::Cartesian.new([["Mon", 1], ["Tue", 3], ["Wen", 6], ["Thu", 5], ["Fri", 4], ["Sat", 10], ["Sun", 8]], :bar => true, :hide_zero => true, :title => "Your Weekly Mood Statistics").draw.colorize(:blue)
+end
