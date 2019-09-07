@@ -32,3 +32,18 @@ user_input = menu_prompt.select("Select an option", options)
 if user_input != 5
 loop do
     user_input = menu_prompt.select("Select an option", options) #DEVNOTE:loop ends underneath my case statement below. It's purpose is to keep displayi
+
+    def activity_guide #activity_guide is my method. It's variable also has the same name for dev readibility purposes (self-commenting-code).
+    puts Rainbow("> Below are a list of ways you can get rid of those blues. Give them a try!").blue.italic
+    puts 
+#DEVNOTE: table for activities-section
+    table = Terminal::Table.new do |t|
+    t.add_row ["Meditate".colorize(:red), "Meditation is especially beneficial for reducing stress! Studies show it can also reduce depression and anxiety, and help people manage chronic pain."]
+    t.add_row ["Art".colorize(:red), "Artistic outlets affect our brains in complex ways, stimulating the limbic system and moderating our response to stressful stimuli."]
+    t.add_row ["Exercise".colorize(:red), "Exercise makes you feel good because it releases chemicals such as endorphins and serotonin that improve your mood."]
+    t.add_row ["Socializing".colorize(:red), "Interacting with others boosts feelings of well-being and decreases feelings of depression."]
+    t.add_row ["Cooking".colorize(:red), "Mental health experts credit cooking with helping to relieve depression, anxiety, eating disorders, and other conditions"]
+    t.add_row ["Coding".colorize(:yellow), "Because...code?"]
+    t.style = {:all_separators => true, :border_x => "=".colorize(:light_green)}
+end 
+end
