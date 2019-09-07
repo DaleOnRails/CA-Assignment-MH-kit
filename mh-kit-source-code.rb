@@ -16,3 +16,19 @@ puts
 system "clear" 
 
 puts "Hi #{name}, what would you like to do?" #User Prompt
+#------------------------------------Menu-Class--------------------------------
+menu_prompt = TTY::Prompt.new #DEVNOTE:creates new instance of the 'prompt class' which i have defined as the variable 'menu_prompt'
+
+options = [
+    {name: "Launch Activity Guide", value: 1},
+    {name: "Mood Journal", value: 2},
+    {name: "Weekly Mood Chart", value: 3},
+    {name: "Mental Health FAQ's", value: 4},
+    {name: "Exit", value: 5}
+]
+user_input = menu_prompt.select("Select an option", options)
+
+#DEVNOTE: loop for repeating the menu after an option has been chosen.Needed for navigation purposes.
+if user_input != 5
+loop do
+    user_input = menu_prompt.select("Select an option", options) #DEVNOTE:loop ends underneath my case statement below. It's purpose is to keep displayi
