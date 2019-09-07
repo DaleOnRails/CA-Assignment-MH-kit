@@ -222,9 +222,17 @@ loop do
 
 So i 'chucked' the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin and if my past days in MMA took more of a toll then i thought.
 
-On the serious note however i ran into more challenges after this but they were solved much quicker, and i think it was due to the realisation that for me coding isn't something that i can attack hard and fast. I learnt that i need to slow down in order to think more logically and trust my abilty to recall what i have been taught in class. Rather then wasting time on google to end up not finding anything helpful anyways. 
+## What Have I Learnt?
+Apart from having 
+I ran into more challenges after this but they were solved much quicker, and i think it was due to the realisation that for me coding isn't something that i can attack hard and fast. I learnt that i need to slow down in order to think more logically and trust my abilty to recall what i have been taught in class. Rather then wasting time on google to end up not finding anything helpful anyways. 
 
-I've also learnt to try and not let stress and deadlines get to me so much. I was 'under the pump' no doubt, but if i actually worked slower and took time to think about what im trying to solve before touching the keyboard i would have gotten twice as much done. I hope this helps someone in the future.
+I've also learnt to try and not let stress & deadlines get to me so much, it seems to hijack my amygdala and throw logical thinking out the window. I was 'under the pump' no doubt, but if i actually worked slower and took time to think about what im trying to solve before touching the keyboard i would have gotten twice as much done. I hope this helps someone in the future.
+## Summary
+This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive. 
+
+In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. I still feel like i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code.
+
+In saying that i'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
 
 # Application Build Status / Future Endeavours
 The application is %99 functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
