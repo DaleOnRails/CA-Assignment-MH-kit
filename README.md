@@ -175,11 +175,6 @@ end
 
 I thought if i added a line of code below each feature variable in the case statement (below), that says "create a new instance of the menu class after the user has selected this option" it could fix the issue and output the menu again. 
 
-```ruby
-if user_input != 5
-loop do
-    user_input = menu_prompt.select("Select an option", options)
-```
 
 ```ruby
 case user_input #user-input value was defined above and passed into this case statement.
@@ -200,6 +195,7 @@ when 1
             until user_input != 1 do     
             puts "You have already selected activity guide. Please choose another option.".colorize(:red)
 ```
+
 This worked! Although (with bad coding habits and a fixed mindset still to shed) after continuing with this approach for quite a while i ended up with over 100 lines of code displaying a super ugly multi-nested case statement! *face slap* 
 
 I then wasted the next day on googling trying to find some kind of help or similar instance i could relate this problem to.
