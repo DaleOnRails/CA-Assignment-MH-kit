@@ -18,10 +18,9 @@ It is sometimes hard for someone with a mental disorder to recall their moods ac
 Features such as a Mood Journal & Mood Chart were included so the user can help their GP give a more accurate diagnosis. Charting their mood allows them and the GP to see patterns in their life and a way to monitor their own progress.
 
 # Functionality and Features
-###### UX Features:
 **'MH-Kit'** was designed with the simplest application usabilty in mind. After the user has entered their name via text input, the user can navigate purely with directional keyboard inputs. On starting the application the user will be welcomed with a brief description of MH-Kit and be prompted for their name.
 
-file:///fudomyo/Pictures/Screenshot-20190907151453-1284x267.png
+![MH-Kit Welcome Screen](file:///fudomyo/Desktop/welcome-screen.png)
 
 # Code Structure / Modules
 To be updated...
