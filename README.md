@@ -48,7 +48,7 @@ If the user enters less then three a list of 'inspiring' qoutes are displayed.
 Input above three. Each time a feature is interacted with, the menu is re-displayed, easing navigation.
 
 ![weekly-mood-chart](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/weekly-mood-chart.png?raw=true)
-**Weekly Mood Chart.** Incorporates a simple format with 1-10 mood ratings and days of the week.
+ **Weekly Mood Chart.** Incorporates a simple format with 1-10 mood ratings and days of the week.
 
 ![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
 **Mental Health FAQ Table** The idea of the **"FAQ Table"** is to let the user know they are not alone in the fight and to raise awareness on how prominent the issue is.
