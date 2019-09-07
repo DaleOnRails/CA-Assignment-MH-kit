@@ -233,7 +233,7 @@ Also a noteworthy lesson might be to not spend two hours attempting to add a scr
 
 ![jazzing-up-readme](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/giphy.gif?raw=true)
 ### Summary
-This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive. 
+This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive but i am happy to of achieved everything i aimed for.
 
 In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. 
 
