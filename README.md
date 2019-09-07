@@ -216,7 +216,7 @@ loop do
     user_input = menu_prompt.select("Select an option", options) #DEVNOTE:loop ends underneath my case statement below. It's purpose is to keep displaying the menu for nav purposes.
 ```
 
-So i 'chucked' the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin and if my past days in MMA took more of a toll then i thought.
+So i wrapped the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin' and if my past days in MMA took more of a toll then i thought.
 
 # Application Build Status / Future Endeavours
 The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
