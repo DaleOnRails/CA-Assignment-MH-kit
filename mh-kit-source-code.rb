@@ -1,4 +1,14 @@
 
+#-------------------------------------------------GEMS-------------------------------------------------------------
+require 'tty-prompt' #used for creating a menu class.
+require 'terminal-table' #used to display facts and activity guide.
+require 'colorize' #colour for table.
+require 'rainbow' #italic font style for emphasised text.
+require 'tty-progressbar' #aesthetic loading bar displayed before start menu/
+require 'ruby_figlet' #displays my pimpin' title.
+require 'ascii_charts' #displays stat data for mood chart
+#---------------------------------------MH-KIT-TITLE------------------------------------------------------------
+
 #---------------------------------------START-WELCOME MESSAGE------------------------------------------------------------
 puts Rainbow("Hi there! Welcome to MH-Kit.").blue.italic
 sleep(2)
