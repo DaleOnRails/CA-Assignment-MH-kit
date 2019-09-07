@@ -1,6 +1,6 @@
 require 'colorize'
 
-String.colors                       # return array of all possible colors names
+String.colors                       # return array of all possible colors 
 String.modes                        # return array of all possible modes
 String.color_samples                # displays color samples in all combinations
 String.disable_colorization         # check if colorization is disabled
