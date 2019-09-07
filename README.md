@@ -8,26 +8,12 @@
 - With 'RUOK' day around the corner i have themed my application around mental illness.
 
 # Application Description
-
 **'MH-Kit'** is essentally a virtual mental health toolkit with the purpose of helping a user get back on their feet when times get tough. The target audience is broad due to mental illness being a global problem. However the user stories were written from the perspective of people who regularly attend a GP.
-
-# User Stories
-- As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
-
-- As a user i want an application that appears personalised to me.
-
-- As a user i want to be able to log my moods daily.
-
-- As a user i want to be able to record and reflect on my daily moods in an easy to understand format.
-
-- As a user i want to provide better quality feedback to my GP without having to rely on active recall.
-
 # Application Design Process
 ###### 1st Problem Identified:
 The first problem identified was that self help can be hard when the user is feeling down and lacking a healthy outlook. It is hard for them to think of healthy activities themselves when their in this state and don’t have a healthy perspective to do so themselves.
 ###### Solution:
 Therefore the applications purpose is to improve the users mood via recommending a guide of science-backed healthy activities for them via the 'Activities Guide' feature.
-
 ###### 2nd Problem Identified:
 It is sometimes hard for someone with a mental disorder to recall their moods accurately when their GP / Psychiatrist asks them these type of questions.
 ###### Solution:
@@ -109,5 +95,13 @@ From a copyright perspective i have put in research in case the name of this app
 Ethical issues to be updated...
 Social issues to be updated...
 
-# Copyright Licence:
-To be updated...
+# User Stories
+- As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
+
+- As a user i want an application that appears personalised to me.
+
+- As a user i want to be able to log my moods daily.
+
+- As a user i want to be able to record and reflect on my daily moods in an easy to understand format.
+
+- As a user i want to provide better quality feedback to my GP without having to rely on active recall.
