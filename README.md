@@ -244,7 +244,7 @@ I still feel like i have some way to go until i fully wrap my head around OOP pr
 In saying that i'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
 
 # Application Build Status / Future Endeavours
-The application is %99 functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
+The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
 
 This is so that i am able to collect real statistics from the 'mood journal' feature rather then the manually inputted 'dummy data' i have used to create the 'mood chart' which i have done purely for presentational purposes. 
 
