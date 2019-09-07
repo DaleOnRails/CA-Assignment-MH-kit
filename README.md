@@ -36,7 +36,7 @@ Upon entering their name the initial welcome screen will be cleared and the main
 **The following are screenshots of each feature:**
 
 ![MH-Kit Activity Guide](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/activity-Guide.png?raw=true)
-**"Activity Guide"**
+**Activity Guide**
 ![MH-Kit Mood Journal](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/mood-journal.png?raw=true)
 - **Mood Journal.** Input of a daily mood rating / assesment is done via directional keys on a slider style feature.
 
@@ -51,7 +51,7 @@ Upon entering their name the initial welcome screen will be cleared and the main
 - **Weekly Mood Chart.** Incorporates a simple format with 1-10 mood ratings and days of the week.
 
 ![fact-table](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/fact-table.png?raw=true)
-**"Mental Health FAQ's"** The idea of the **FAQ Table** is to let the user know they are not alone in the fight and to raise awareness on how prominent the issue is.
+**Mental Health FAQ Table** The idea of the **"FAQ Table"** is to let the user know they are not alone in the fight and to raise awareness on how prominent the issue is.
 
 # Required Ruby Gems / Specs / Dependencies
 The gems / bundle required to run the application has been included in the above repository. I have chosen not to list them here in the 'readme.md' file due to readibility purposes. 
