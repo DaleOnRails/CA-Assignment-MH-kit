@@ -202,8 +202,12 @@ when 1
 ```
 This worked! Although (with bad coding habits and a fixed mindset still to shed) after continuing with this approach for quite a while i ended up with over 100 lines of code displaying a super ugly multi-nested case statement! *face slap* 
 
-I then wasted the next day on googling trying to find some kind of help or similar instance i could relate this probelm too. 
-However with almost no examples of menu driven terminal applications on the internet, i wasn't able to find anything that helped solve my problem (or any of the other numerous challenges i ran into while developing this application for that matter). (Also to note on that, that is the major reason why i am posting these long ugly code snippets..in the hope of helping someone in the future). With shame i'll admit i was trying to fix this for nearly two full days and came to the conclusion that i would fail this assessment and would make a terible dev. (Still hasn't been marked  and im late for that matter so i won't speak to soon)
+I then wasted the next day on googling trying to find some kind of help or similar instance i could relate this problem to.
+However with almost no examples of menu driven terminal applications on the internet, i wasn't able to find anything that helped solve my problem. It especially didn't help having an esoteric application idea such as this. 
+
+(or for any of the other numerous challenges i ran into while developing this application for that matter). (Also to note on that, that is the major reason why i am posting these long ugly code snippets and rambles...in the hope of helping someone in the future). 
+
+With shame i'll admit i was trying to fix this for nearly two full days and came to the conclusion that i would fail this assessment and would make a terible dev. (This still hasn't been marked and im late for that matter so i won't speak to soon!!)
 
 *It wasn't until i started to believe in myself and slow down to think logically, that everything started to work!! As corny as that sounds* 
 
