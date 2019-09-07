@@ -83,7 +83,18 @@ However a special mention must go to https://github.com/piotrmurach however as h
 AUTHOR NOTE: DOUBLE CHECK THIS PROCCESS BEFORE RELEASE!!!!
 
 # Design and Planning
-To be updated...
+
+
+# User Stories
+- As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
+
+- As a user i want an application that appears personalised to me.
+
+- As a user i want to be able to log my moods daily.
+
+- As a user i want to be able to record and reflect on my daily moods in an easy to understand format.
+
+- As a user i want to provide better quality feedback to my GP without having to rely on active recall.
 
 # Record of Planning Progress
 To be updated...
@@ -100,6 +111,8 @@ To be updated...
 To be updated...
 
 # Initial Prototype Features, Ideas & Challenges
+*This section isn't crucial to my assignment and may not be typically included in a readme.md file and belong to something more like a blog, but i thought i would explain the valuable lessons i have learnt. This will be painful for an experienced dev to read but have included it in the hope of helping a future beginning dev like myself so they don't make the same mistakes i did.*
+
 Before the final product listed above, i had implented a number of features before purging them in the pursuit of satisfying my user story / client requirements. Some features that were initially incorporated included:
 
 - **Text input menu navigation.** Initially i had hardcoded the menu (after struggling for 1 and a half days pulling my hair trying to figure out how!). The user would simply choose menu options via inputting the corresponding number listed next to it. Below is a (apologetically long) code snippet of the hardcoded model including my overboard dev notes/comments. 
@@ -141,7 +154,77 @@ menu = Menu.new( #rather then incorparating menu items/parameters in standard si
 )
 
 ```
-This version of the menu worked fine but then my second and most painful problem arose (I'm a beginner remember ;) ). Once a user 
+This version of the menu worked fine but then my second and most painful problem arose, i'm a beginner remember ;). I was struggling to find a way to return the user to the main menu so they could continue navigating! Once a user would select an option the menu would disappear and there was no way for the user to return to it. My first attempt at fixing this issue was to edit the case statement (below) which controlled the functionality of my menu. 
+
+```ruby
+case user_input #DEVNOTE: user-input value was defined above and passed into this case statement.
+when 1
+    puts "#{activity_guide}" #test-verified.                                                
+when 2
+    puts "#{mood_journal}"                                                     
+when 3
+    puts "#{mood_chart}"
+when 4
+    puts "#{health_facts}"                                                                                                    
+when 5 
+    return
+end
+end #DEVNOTE: this is the end for the loop defined in menu instance section
+end
+```
+
+I thought if i added a line of code below each feature variable in the case statement (below), that says "create a new instance of the menu class after the user has selected this option" it could fix the issue and output the menu again. 
+
+```ruby
+if user_input != 5
+loop do
+    user_input = menu_prompt.select("Select an option", options)
+```
+
+```ruby
+case user_input #user-input value was defined above and passed into this case statement.
+when 1
+    #functionality for 'Activity Guide' goes here.
+    puts "#{activity_guide}" #test-verified.           #1: Will puts activity_guide                                            
+    user_input = menu_prompt.select("Select an option", options) #3:Collect new input value so that redirection is possible.
+    until user_input != 1 do     
+        puts "You have already selected activity guide. Please choose another option.".colorize(:red)
+        puts
+        user_input = menu_prompt.select("Select an option", options)
+    end
+        case user_input #user-input value was defined above and passed into this case statement.
+        when 1
+        #functionality for 'Activity Guide' goes here.
+        puts "#{activity_guide}" #test-verified.           #1: Will puts activity_guide                                            
+        user_input = menu_prompt.select("Select an option", options) #3:Collect new input value so that redirection is possible.
+            until user_input != 1 do     
+            puts "You have already selected activity guide. Please choose another option.".colorize(:red)
+```
+This worked! Although (with bad coding habits and a fixed mindset still to shed) after continuing with this approach for quite a while i ended up with over 100 lines of code displaying a super ugly multi-nested case statement! *face slap* 
+
+I then wasted the next day on googling trying to find some kind of help or similar instance i could relate this probelm too. 
+However with almost no examples of menu driven terminal applications on the internet, i wasn't able to find anything that helped solve my problem (or any of the other numerous challenges i ran into while developing this application for that matter). (Also to note on that, that is the major reason why i am posting these long ugly code snippets..in the hope of helping someone in the future). With shame i'll admit i was trying to fix this for nearly two full days and came to the conclusion that i would fail this assessment and would make a terible dev. (Still hasn't been marked  and im late for that matter so i won't speak to soon)
+
+*It wasn't until i started to believe in myself and slow down to think logically, that everything started to work!! As corny as that sounds* 
+
+I remembered what my instructor *Matt* told me about breaking problems down, one lego block at a time to identify the root problem. So i asked myself one question, what am i trying to do? 
+
+("I'm trying to get the menu to **repeatedly display** underneath a feature so the user can continue navigating my app") 
+
+*Repeat*...what does that sound like? **A loop!!** 
+
+```ruby
+#DEVNOTE: loop for repeating the menu after an option has been chosen.Needed for navigation purposes.
+if user_input != 5
+loop do
+    user_input = menu_prompt.select("Select an option", options) #DEVNOTE:loop ends underneath my case statement below. It's purpose is to keep displaying the menu for nav purposes.
+```
+
+So i 'chucked' the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin and if my past days in MMA took more of a toll then i thought.
+
+On the serious note however i ran into more challenges after this but they were solved much quicker, and i think it was due to the realisation that for me coding isn't something that i can attack hard and fast. I learnt that i need to slow down in order to think more logically and trust my abilty to recall what i have been taught in class. Rather then wasting time on google to end up not finding anything helpful anyways. 
+
+I've also learnt to try and not let stress and deadlines get to me so much. I was 'under the pump' no doubt, but if i actually worked slower and took time to think about what im trying to solve before touching the keyboard i would have gotten twice as much done. I hope this helps someone in the future.
 
 # Application Build Status / Future Endeavours
 The application is %99 functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
@@ -160,14 +243,3 @@ To be updated...
 The features and information in this document and application is not intended as a substitute for professional medical advice, diagnosis or treatment. This application is not to be used for commercial purposes or personal gain.
 
 From a copyright perspective i have put in research in case the name of this application "MH-Kit" infringed any copyright laws of other health applications currently released. I have not seen anything with a name close to "MH-Kit" and therefore have confidence that my application is complient.
-
-# User Stories
-- As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
-
-- As a user i want an application that appears personalised to me.
-
-- As a user i want to be able to log my moods daily.
-
-- As a user i want to be able to record and reflect on my daily moods in an easy to understand format.
-
-- As a user i want to provide better quality feedback to my GP without having to rely on active recall.
