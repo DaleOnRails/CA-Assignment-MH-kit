@@ -76,3 +76,26 @@ end
         puts Rainbow("I'm so glad your feeling better, keep up the great work!").blue.italic
 end
 end
+    
+    def health_facts
+    sleep(1)
+    puts Rainbow("> Learn more about mental health with these facts below.").blue.italic
+
+#DEVNOTE: table for mental health FAQ's section
+table = Terminal::Table.new do |t|
+  t.add_row ["Fact 1".colorize(:red), "Around 20% of the world's children and adolescents have mental disorders or problems."]
+  t.add_row ["Fact 2".colorize(:red), "Stigma and discrimination against patients and families prevent people from seeking mental health care."]
+  t.add_row ["Fact 3".colorize(:red), "Financial resources to increase services are relatively modest."]
+  t.add_row ["Fact 4".colorize(:red), "Each year, approximately one in every five Australians will experience a mental illness"]
+  t.add_row ["Fact 5".colorize(:red), "It is estimated about 45% of Australians may experience mental illness at some point in their lives"]
+  t.add_row ["Fact 6".colorize(:red), "Prevalence of mental illness decreases with age, with prevalence greatest among 18-24 year olds"]
+  t.add_row ["Fact 7".colorize(:red), "Many violent people have no history of mental disorder and most people with mental illness (90%) have no history of violence."]
+  t.add_row ["Fact 8".colorize(:red), "In Australia, the prevalence of mental or behavioural disorders among people born overseas is similar to those born in Australia"]
+  t.add_row ["Fact 9".colorize(:red), "Limited research suggests Aboriginal and Torres Strait Islander peoples experience mental disorders at least as often as other Australians"]
+  t.add_row ["Fact 10".colorize(:red), "In any one year, around 1 million Australian adults have depression, and over 2 million have anxiety."]
+  puts 
+  puts "You are not alone. If you or someone else you know needs help, call lifeline australia on 13 11 14.".colorize(:red)
+
+  t.style = {:all_separators => true, :border_x => "=".colorize(:blue)} #DEVNOTE: table styling.  
+end
+end
