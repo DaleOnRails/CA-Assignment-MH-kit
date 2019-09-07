@@ -127,3 +127,18 @@ def mood_chart                            #---IMPORTANT DEVNOTE BELOW!!!:---
     puts
     puts AsciiCharts::Cartesian.new([["Mon", 1], ["Tue", 3], ["Wen", 6], ["Thu", 5], ["Fri", 4], ["Sat", 10], ["Sun", 8]], :bar => true, :hide_zero => true, :title => "Your Weekly Mood Statistics").draw.colorize(:blue)
 end
+
+case user_input #DEVNOTE: user-input value was defined above and passed into this case statement.
+when 1
+    puts "#{activity_guide}"                                                
+when 2
+    puts "#{mood_journal}"                                                     
+when 3
+    puts "#{mood_chart}"
+when 4
+    puts "#{health_facts}"                                                                                                    
+when 5 
+    return
+end
+end #DEVNOTE: this is the end for the loop defined in menu instance section
+end
