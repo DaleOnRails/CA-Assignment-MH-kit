@@ -8,7 +8,15 @@ require 'tty-progressbar' #aesthetic loading bar displayed before start menu/
 require 'ruby_figlet' #displays my pimpin' title.
 require 'ascii_charts' #displays stat data for mood chart
 #---------------------------------------MH-KIT-TITLE------------------------------------------------------------
+system "clear" #will clear users last session of MH-Kit.
 
+using RubyFiglet #Displays Below title text as ascii art.
+title = "Welcome   to   MH-Kit!"
+title.art!
+puts title
+puts
+puts
+sleep(1)
 #---------------------------------------START-WELCOME MESSAGE------------------------------------------------------------
 puts Rainbow("Hi there! Welcome to MH-Kit.").blue.italic
 sleep(2)
