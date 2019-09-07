@@ -3,15 +3,14 @@ My third week in to [Coderacademy](https://coderacademy.edu.au/)'s Fast Track Bo
 
 Below is a brief of my own project **"MH-Kit"** 
 
-*Please excuse the spelling mistakes as sleep hasn't been a luxury i've been able to afford.*
 # Background Description & Motivation
 - The reason programming caught my eye to begin with was because of its capabilities to create a positive impact in this world and help people. 
 - While this app won't really help anyone in the real world,  it’s a step towards that burning desire and a spark for the ideas engine.
 - With 'RUOK' day around the corner i have themed my application around mental illness.
 
-# Application Description
+## Application Description
 **'MH-Kit'** is essentally a virtual mental health toolkit with the purpose of helping a user get back on their feet when times get tough. The target audience is broad due to mental illness being a global problem. However the user stories were written from the perspective of people who regularly attend a GP.
-# Application Design Process
+### Application Design Process
 ###### 1st Problem Identified:
 The first problem identified was that self help can be hard when the user is feeling down and lacking a healthy outlook. It is hard for them to think of healthy activities themselves when their in this state and don’t have a healthy perspective to do so themselves.
 ###### Solution:
@@ -21,7 +20,7 @@ It is sometimes hard for someone with a mental disorder to recall their moods ac
 ###### Solution:
 Features such as a Mood Journal & Mood Chart were included so the user can help their GP give a more accurate diagnosis. Charting their mood allows them and the GP to see patterns in their life and a way to monitor their own progress.
 
-# Functionality and Features
+### Functionality and Features
 **'MH-Kit'** was designed with the simplest application usabilty in mind. After the user has entered their name via text input, the user can navigate purely with directional keyboard inputs. From the welcome screen the user will be informed with a brief description of MH-Kit and be prompted for their name.
 
 ![MH-Kit Welcome Screen](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/welcome-screen.png?raw=true)
@@ -86,7 +85,7 @@ However a special mention must go to https://github.com/piotrmurach however as h
 AUTHOR NOTE: DOUBLE CHECK AND UPDATE THIS PROCCESS BEFORE RELEASE!!!!
 
 # Design and Planning
-
+Part of the assessment criteria was to implement our understanding of algorithmic thinking applied to programming. To do this i have included a control flow digram as part of the software development plan. However due to time restraints i have opted to include my initial draft diagram. It may not be visually appealing but the logic is there. This will soon be updated via using a professional flowchart application by the name of *coggle.*
 
 # User Stories
 - As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
