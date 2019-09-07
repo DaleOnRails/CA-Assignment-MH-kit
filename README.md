@@ -2,8 +2,8 @@
 My third week in to [Coderacademy](https://coderacademy.edu.au/)'s Fast Track Bootcamp, the crew and I were tasked with building our first terminal application with Ruby. The application was an individual assessment and we were given *3'ish* days to create a CLI project of any sort, and it was indeed a very challenging but intensely rewarding week.
 
 Below is a brief of my own project **"MH-Kit"** 
-*Please excuse the spelling mistakes as sleep hasn't been a luxury i've been able to afford.*
 
+*Please excuse the spelling mistakes as sleep hasn't been a luxury i've been able to afford.*
 # Background Description & Motivation
 - The reason programming caught my eye to begin with was because of its capabilities to create a positive impact in this world and help people. 
 - While this app won't really help anyone in the real world,  it’s a step towards that burning desire and a spark for the ideas engine.
