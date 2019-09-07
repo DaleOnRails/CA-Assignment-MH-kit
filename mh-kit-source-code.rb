@@ -154,5 +154,5 @@ when 4
 when 5 
     return
 end
-end #DEVNOTE: this is the end for the loop defined in menu instance section
+end #DEVNOTE: this is the end for the loop defined in menu instance section.
 end
