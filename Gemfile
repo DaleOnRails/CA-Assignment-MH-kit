@@ -12,7 +12,7 @@ gem 'terminal-table', '~> 1.8'
 
 gem 'rainbow', '~> 3.0'
 
-gem 'tty'
+gem 'tty' #tty was a large gem containing many dependencies, however extremely useful and a GEM i would highly recommend to anyone.
 
 gem 'tty-progressbar'
 
