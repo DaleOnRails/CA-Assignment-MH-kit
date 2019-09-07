@@ -78,7 +78,7 @@ However a special mention must go to https://github.com/piotrmurach however as h
 7.If you get an error message (usually in red) on your terminal, asking you to update your bundler, input the below in your terminal command line. (this may indicate that you do not have the correct version of bundler)
 > gem update --system
 
-8 Run program using step 6 again.
+8.Run program using step 6 again.
 
 AUTHOR NOTE: DOUBLE CHECK AND UPDATE THIS PROCCESS BEFORE RELEASE!!!!
 
