@@ -59,11 +59,11 @@ The gems / bundle required to run the application has been included in the above
 However a special mention must go to https://github.com/piotrmurach however as his extensive work in the ruby community has made life far easier for beginning students like myself. I wish i looked into the features that ruby gems offer before 'wasting' two days trying to hardcode every function myself. His work has inspired me to one day code my own gem and give back to the community but currently i am a long way off from having the skillset to do so. 
 
 # User Instructions
-1. Follow these instructions to download and install [ruby](https://www.ruby-lang.org/en/documentation/installation/) on your computer.
+1.Follow these instructions to download and install [ruby](https://www.ruby-lang.org/en/documentation/installation/) on your computer.
 
-2. Download and extract the zip files of this repository.
+2.Download and extract the zip files of this repository.
 
-3. Open your terminal and on the command line change your directory path to the folder containing this project. Install the bundler gem (if you haven't already). 
+3.Open your terminal and on the command line change your directory path to the folder containing this project. Install the bundler gem (if you haven't already). 
 > install bundler
 
 4.Ask bundle to install the gems that this applications program uses via...
@@ -75,12 +75,12 @@ However a special mention must go to https://github.com/piotrmurach however as h
 6.Input the below command in the terminal command line to launch the "MH-Kit" application program.
 > ruby main.rb
 
-7. If you get an error message (usually in red) on your terminal, asking you to update your bundler, input the below in your terminal command line. (this may indicate that you do not have the correct version of bundler)
+7.If you get an error message (usually in red) on your terminal, asking you to update your bundler, input the below in your terminal command line. (this may indicate that you do not have the correct version of bundler)
 > gem update --system
 
 8 Run program using step 6 again.
 
-AUTHOR NOTE: DOUBLE CHECK THIS PROCCESS BEFORE RELEASE!!!!
+AUTHOR NOTE: DOUBLE CHECK AND UPDATE THIS PROCCESS BEFORE RELEASE!!!!
 
 # Design and Planning
 
