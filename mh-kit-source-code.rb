@@ -1,8 +1,7 @@
 #---------------------------------------------colour-code-key-for-future-editing----------------------------------------------------
 #blue/italic for headings and featured content such as qoutes.
 #green/italic for prompts.
-#red for tabe heading cells.
-#Dont need yellow or red for errors because i made it impossible for the user to crash my program. HOPEFULLY ;)
+#red for table heading cells.
 #-------------------------------------------------GEMS-------------------------------------------------------------
 require 'tty-prompt' #used for creating a menu class
 require 'terminal-table' #used to display facts and activity guide
@@ -39,7 +38,7 @@ puts
 @bar = TTY::ProgressBar.new("loading [:bar]", total: 15) #DEVNOTE: Placement of progress bar is here so it looks like it is loading the menu.
 system "clear" 
 
-puts "Hi #{name}, what would you like to do?".blue.italic #TEST-VERIFIED
+puts "Hi #{name}, what would you like to do?".blue.italic 
 
 #---------------------------------Progress-Bar-method-For-Aesthetics---------
 def progress_bar
@@ -136,9 +135,8 @@ end
 #-----------------------------------------Mood-Chart-Statistics-(menu-method)------------------------------
 
 def mood_chart                            #---IMPORTANT DEVNOTE BELOW!!!:---
-    sleep(1) #i could assign the (mood_journal) variable to this class and therefore display real statistics however due \n
-    #...to lack of a database i have chosen to use fake data so that i am able to display the capabilites of my application. \n
-    #...If im correct i could store variable data without a database via a session logging gem, but due to presentation purposes i have chosen to do this.
+    sleep(1) #i could assign the (mood_journal) variable to this class and therefore display real statistics, however the data would only be a single value (one weekday) due to it being a local variable. This means once data(value) is assigned to a local variable it will overwrite any existing data in it's place.
+    #...If im correct i could store variable data without a database via either a session logging gem(data written to a file) or with the use of ruby's simple built in dateTime function, but due to presentation purposes and time restrictions i have chosen to do this.
     puts
     puts AsciiCharts::Cartesian.new([["Mon", 1], ["Tue", 3], ["Wen", 6], ["Thu", 5], ["Fri", 4], ["Sat", 10], ["Sun", 8]], :bar => true, :hide_zero => true, :title => "Your Weekly Mood Statistics").draw.colorize(:blue)
 end
