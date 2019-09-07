@@ -1,10 +1,11 @@
 # MH-Kit Ruby CLI Application
 
 # Background Description / Motivation
-To be updated...
+The reason programming caught my eye to begin with was because of its capabilities to create a positive impact in this world and help people. 
 
-# Alternate Ideas Considered
-To be updated...
+While this app won't really help anyone in the real world,  it’s a step towards that burning desire and a spark for the ideas engine.
+
+With 'RUOK' day around the corner i have themed my application around mental illness.
 
 # User Stories
 As a user i want an application that can recommeded a guide of healthy activities to enhance my mood when i am not in the right frame of mind to think of such things myself.
@@ -15,9 +16,7 @@ As a user i want to be able to log my moods daily.
 
 As a user i want to be able to record and reflect on my daily moods in an easy to understand format.
 
-As a user i want to use this mood journal so that my GP can easily identify patterns in my life and therefore diagnose and prescribe medication more accurately.
-
-To be updated...
+As a user i want to use this mood journal / chart, so that my GP can easily identify patterns in my life and therefore diagnose and prescribe medication more accurately.
 
 # Functionality and Features
 To be updated...
