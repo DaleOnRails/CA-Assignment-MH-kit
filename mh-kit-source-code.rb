@@ -8,3 +8,11 @@ I am here to try boost your mood with a guide of healthy activities when your no
 puts 
 puts "MH-Kit also come's equipped with a Mood Journal & Mood Chart so you can help your GP give you a more accurate diagnosis. Charting your mood allows you to see patterns in your life."
 puts
+
+#-------------------------------User-Prompt-Name-----------------------------
+puts "What's your name?"
+name = gets.chomp.downcase 
+puts 
+system "clear" 
+
+puts "Hi #{name}, what would you like to do?" #User Prompt
