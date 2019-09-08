@@ -75,7 +75,7 @@ However a special mention must go to https://github.com/piotrmurach as his exten
 > cd (name-of-folder-containing-extracted-repository-project-file)
 
 6.Input the below command in the terminal command line to launch the "MH-Kit" application program.
-> ruby ruby mh-kit-source-code.rb
+> ruby mh-kit-source-code.rb
 
 7.If you get an error message (usually in red) on your terminal, asking you to update your bundler, input the below in your terminal command line. (this may indicate that you do not have the correct version of bundler)
 > gem update --system
