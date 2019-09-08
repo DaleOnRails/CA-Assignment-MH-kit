@@ -237,11 +237,11 @@ Also a noteworthy lesson might be to not spend two hours attempting to add a scr
 ### Summary
 This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive but i am happy to of achieved everything i aimed for. Presentation day really showcased how positve the culture is in our cohort and i feel like were all a little more closer and supportive for it.
 
-In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. 
+In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. Without a doubt i know i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. 
 
-Without a doubt i know i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. I'm sure i could have met the requirements of these practices but as with alot of my cohort peers, time was the worst enemy. 
+I attempted some basic unit testing on my prototype source code file, mainly focused on my original hardcoded menu class and case statement function. But unfortunately due to removing these features in later stages of development these test-cases became obsolete. After that i just couldn't find the time to apply new unit tests to my final source code. I'm sure i could have met the requirements of these practices (modularising and unit-testing) but as with alot of my cohort peers, time was the worst enemy. 
 
-That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code and im sure there is a way i can improve my time management skills and still get some kind sleep in the process. I gave this assignment all the effort i could possibly give in the timeframe that was set and to me that's all that matters.
+That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code and im sure there is a way i can improve my time management skills and still get some kind of sleep in the process of future projects. I gave this assignment all the effort i could possibly give in the timeframe that was set and to me that's all that matters.
 
 I'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
 
