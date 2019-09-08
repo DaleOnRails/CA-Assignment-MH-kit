@@ -104,10 +104,10 @@ The project workload was dissected using an industry project management platform
 - As a user i want to provide better quality feedback to my GP without having to rely on active recall.
 
 # Code Structure
-I have written the source code with the practice of 'self-commenting' code in mind. Despite this i have a habit of applying heavy code comments by default. It helps me consolidate the flow of the program and has been especially helpful when running on almost no sleep. 
+I have tried to write the source code with the practice of 'self-commenting' code in mind. Despite this i have a habit of applying heavy code comments by default. It helps me consolidate the flow of the program and has been especially helpful when running on almost no sleep. 
 
 # Initial Prototype Features, Ideas & Challenges 
-*"This section isn't crucial to my assignment and may not be typically included in a readme.md file and belong to something more like a blog, but i thought i would explain the valuable lessons i have learnt. This will be painful for an experienced dev to read but have included it in the hope of helping a future beginning dev like myself so they don't make the same mistakes i made."*
+*"This section isn't crucial to my assignment and may not be typically included in a readme.md file and belong to something more like a blog, but i thought i would explain the valuable lessons i have learnt. This will be painful for an experienced dev to read but have included this jargon in the hope of helping a future beginning dev like myself so they don't make the same mistakes i made."*
 
 Before the final product listed above, i had implented a number of features before purging them in the pursuit of satisfying my user story / client requirements. Some features that were initially incorporated included:
 
