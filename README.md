@@ -4,7 +4,7 @@ My third week in to [Coderacademy](https://coderacademy.edu.au/)'s Fast Track Bo
 Below is a brief of my own project **"MH-Kit"** 
 
 # Background Description & Motivation
-- The reason programming caught my eye to begin with was because of its capabilities to create a positive impact in this world and help people. 
+- The reason programming caught my eye was because of its capabilities to create a positive impact in this world and help people. 
 - While this app won't really help anyone in the real world,  it’s a step towards that burning desire and a spark for the ideas engine.
 - With 'RUOK' day around the corner i have themed my application around mental illness.
 
@@ -169,7 +169,7 @@ end #DEVNOTE: this is the end for the loop defined in menu instance section
 end
 ```
 
-I thought if i added a line of code below each feature variable in the case statement (below), that says "create a new instance of the menu class after the user has selected this option" it could fix the issue and output the menu again. 
+I thought if i added a line of code below each features method in the case statement (below), that says "create a new instance of the menu class after the user has selected this option" it could fix the issue and output the menu again. 
 
 
 ```ruby
@@ -192,18 +192,18 @@ when 1
             puts "You have already selected activity guide. Please choose another option.".colorize(:red)
 ```
 
-This worked! Although (with bad coding habits and a fixed mindset still to shed) after continuing with this approach for quite a while i ended up with over 100 lines of code displaying a super ugly multi-nested case statement! *face slap* 
+This worked! Although (with bad coding habits and a fixed mindset still to shed) after continuing with this approach for quite a while i ended up with over 100 lines of code displaying a super ugly multi-nested case statement. *face slap* 
 
-I then wasted the next day on googling trying to find some kind of help or similar instance i could relate this problem to.
-However with almost no examples of menu driven terminal applications on the internet, i wasn't able to find anything that helped solve my problem. It especially didn't help having an esoteric application idea such as this. 
+I then wasted way to much time on googling trying to find some kind of help or similar instance i could relate this problem to.
+However with almost no examples of menu driven terminal applications on the internet, i wasn't able to find anything that helped solve my problem. 
 
 (or for any of the other numerous challenges i ran into while developing this application for that matter). (Also to note on that, that is the major reason why i am posting these long ugly code snippets and rambles...in the hope of helping someone in the future). 
 
-With shame i'll admit i was trying to fix this for nearly two full days and came to the conclusion that i would fail this assessment and would make a terible dev. (This still hasn't been marked and im late for that matter so i won't speak to soon!!)
+With shame i'll admit i was trying to fix this for nearly a day and a half and came to the conclusion that i would fail this assessment and would make a terible dev. (This still hasn't been marked so i won't speak to soon!!)
 
 *It wasn't until i started to believe in myself and slow down to think logically, that everything started to work!! As corny as that sounds* 
 
-I remembered what my instructor *Matt* told me about breaking problems down, one lego block at a time to identify the root problem. So i asked myself one question, what am i trying to do? 
+I remembered what my instructor *Matt* told me about breaking problems down, one lego block at a time to identify the root problem. So i asked myself what am i trying to do? 
 
 ("I'm trying to get the menu to **repeatedly display** underneath a feature so the user can continue navigating my app") 
 
@@ -219,7 +219,7 @@ loop do
 So i wrapped the above loop around my menu class and the heavens themselves opened up. I then spent the next hour questioning how many brain cells are left in my noggin' and if my past days in MMA took more of a toll then i thought.
 
 # Application Build Status / Future Endeavours
-The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished one day from now on sunday the 8/9/2019.
+The application is 99% functional. All that is left to do is to code a dateTime function to the 'mood journal' & assign it to the 'mood chart' class variable. This will be finished as soon as i find time.
 
 This is so that i am able to collect real statistics from the 'mood journal' feature rather then the manually inputted 'dummy data' i have used to create the 'mood chart' which i have done purely for presentational purposes. 
 
@@ -235,13 +235,15 @@ Also a noteworthy lesson might be to not spend two hours attempting to add a scr
 
 ![jazzing-up-readme](https://github.com/fudomyo-hub/mental-health-kit/blob/master/img/giphy.gif?raw=true)
 ### Summary
-This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something im extemely passionate about. There really isn't much to my program and it may not be technically impressive but i am happy to of achieved everything i aimed for. Presentation day really showcased how positve the culture is in our cohort and i feel like were all a little more closer and supportive for it.
+This assignment was a lesson in dealing with fear of failure. It's not that i havn't failed in life before because believe me i've done alot of that! It's just that becoming a developer is something i'm extemely passionate about. 
+
+There really isn't much to my program and it's not technically impressive but i am happy to of achieved everything i aimed for. Presentation day really showcased how positve the culture is in our cohort and i feel like were all a little more closer and supportive for it.
 
 In saying that though i had a ton of fun being set loose with the skills i have learned in the first two weeks at Brisbane Coder Academy thanks to the amazing instructors Jordan and Matt. Without a doubt i know i have some way to go until i fully wrap my head around OOP programming, especially when it comes to Unit Test's and modularising my code. 
 
-I attempted some basic unit testing on my prototype source code file, mainly focused on my original hardcoded menu class and case statement function. But unfortunately due to removing these features in later stages of development these test-cases became obsolete. After that i just couldn't find the time to apply new unit tests to my final source code. I'm sure i could have met the requirements of these practices (modularising and unit-testing) but as with alot of my cohort peers, time was the worst enemy. 
+I attempted some basic unit testing on my prototype source code file, mainly focused on my original hardcoded menu class and case statement function. Unfortunately due to removing these features in later stages of development these test-cases became obsolete. After that i just couldn't find the time to apply new unit tests to my final source code. I'm sure i could have met the requirements of these practices (modularising and unit-testing) but as with alot of my cohort peers, time was the worst enemy. 
 
-That's OK! One of the best things Coder Academy has taught me and my peers is growth mindset. I welcome any chance to improve my code and im sure there is a way i can improve my time management skills and still get some kind of sleep in the process of future projects. I gave this assignment all the effort i could possibly give in the timeframe that was set and to me that's all that matters.
+That's OK! One of the best things Coder Academy has taught the class is growth mindset. I welcome any chance to improve my code and im sure there is a way i can improve my time management skills and still get some kind of sleep in the process of future projects. I gave this assignment all the effort i could possibly give in the timeframe that was set and to me that's all that matters.
 
 I'll definitely be making sure i put in some intense hours on codewars so i can return to github with better projects soon.
 
